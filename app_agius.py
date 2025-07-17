@@ -171,7 +171,7 @@ def abrir_janela_boleto():
         cpf_formatado = f"{cpf_digits[:3]}.{cpf_digits[3:6]}.{cpf_digits[6:9]}-{cpf_digits[9:]}"
 
         try:
-            valor_limpo = re.sub(r"[^\d,]", "", valor_bruto).replace(".", "").replace(",", ".")
+            valor_limpo = re.sub(r"[^\d,]", "", valor_str).replace(".", "").replace(",", ".")
             valor_total = float(valor_limpo)
         except ValueError:
             messagebox.showerror("Erro", "Valor inválido!")
