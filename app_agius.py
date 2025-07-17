@@ -247,7 +247,7 @@ def abrir_janela_boleto():
     frame_boleto.rowconfigure(7, weight=1)
 
 janela = tk.Tk()
-janela.title("App Ágius (Master)")
+janela.title("Vitão lindão")
 janela.geometry("450x600")
 
 frame = ttk.Frame(janela, padding=20)
