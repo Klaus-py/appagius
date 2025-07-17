@@ -7,7 +7,7 @@ fixada = False
 
 DESCONTOS_ANO = {
     "Sem desconto": {'avista': 0, 'parcelado': 0},
-    "Preventivo": {'avista': 30, 'parcelado': 0},
+    "Preventivo1": {'avista': 30, 'parcelado': 0},
     "Outros": {},
     "2020/2021": {'avista': 50, 'parcelado': 25},
     "2022/2023": {'avista': 40, 'parcelado': 20},
