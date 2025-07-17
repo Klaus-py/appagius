@@ -28,6 +28,7 @@ def calcular():
         valor_limpo = re.sub(r"[^\d,]", "", valor_bruto).replace(".", "").replace(",", ".")
         valor_inicial = float(valor_limpo)
 
+        
         grupo_ano = combo_ano.get()
         if not grupo_ano:
             messagebox.showerror("Erro", "Por favor, selecione o ano do contrato.")
